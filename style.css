@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+/* NAV BAR POORA KA POORA */
+.header-left img{
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+.header{
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 999;
+    justify-content: space-evenly;
+    border-bottom: 0.1px solid lightgrey;
+    padding: 10px;
+    background-color: wheat;
+}
+.header-left{
+    display: flex;
+}
+.header-right .icons{
+    display:flex;
+    vertical-align:top;
+	width:200px;
+	padding:0 0 0 10px;
+}
+.header-search{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    color: grey;
+    background-color: wheat;
+}
+.header-search input{
+    border: none;
+    outline: none;
+    background: none;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: black;
+}
+
+.icon h3{
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.icon {
+    margin: 5px;
+    height: 20px;
+    width: 50px;
+}
+/* BODY POORI KI POORI */
+.bodymain{
+display: flex;
+margin-top: 35px;
+max-width: 1200px;
+margin-left: 20px;
+margin-right: 20px;
+}
+/* sidebar */
+.sidebar{
+    position: sticky;
+    display: flex;
+    /* align-self: inherit; */
+    top: 80px;
+    flex: 0.2; 
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.sidebar-top .abc{
+    font-size: 40px;
+}
+
+.sidebar-ss{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sidebar.sidebar-s{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar p{
+    color: grey;
+    font-size: 13px;
+    font-weight: 600;
+}
+.sidebarnumc {
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+.sidebar-top h2{
+    font-size: 18px;
+}
+.sidebar-top h4{
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.sidebar-bottom{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.recent{
+    display: flex;
+    font-size: 13px;
+    color: grey;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.recent:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+.feed{
+    flex: 0.6;
+    margin: 0 20px;
+}
+.feed-inputcontainer{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px ;
+}
+.feed-input{
+    border: 1px solid lightgrey;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color:grey;
+    padding-left: 15px;
+}
+.feed-input form{
+    display: flex;
+    width: 100%;
+}
+.feed-input form input{
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+.feed-inputOptions{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputOption{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    color: grey;
+}
+.inputOption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.inputOption h4{
+    margin-left: 5px;
+}
+/* post section */
+.post{
+    background-color: white;
+    padding: 15px;
+    margin-top:  10px; ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.post-head{
+    display: flex;
+    margin-bottom: 10px;
+}
+.post-info{
+    margin-left: 10px;
+}
+.post-info p{
+    font-size: 12px;
+    color: grey;
+}
+.post-info h2{
+    font-size: 12px;
+}
+
+/* side ka stuff */
+.side{
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid lightgrey;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.side-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.side-head h2{
+    font-size: 10px;
+    font-weight: 400;
+}
+.side-articles{
+    display: flex;
+    cursor: pointer;
+    padding: 10px;
+}
+.side-articles:hover{
+    background-color: whitesmoke;
+}
+.side-artice-left{
+    color:#0177b7;
+    margin-right: 5px;
+}
+.side-artice-left.icons{
+    font-size: 15px;
+}
+.side-artice-right{
+    flex:1;
+}
+.side-articles-right h4{
+    font-size: 14px;
+}
+.side-artice-right p{
+    font-size: 12px;
+    color: grey;
+}

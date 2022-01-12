@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FOR ME ICON -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+</head>
+
+<body>
+    <!-- Start of header -->
+    <div class="header">
+        <div class="header-left">
+            <!-- linkedIn logo -->
+            <img src="linkedIn logo.png" alt="">
+            <!-- search bar -->
+            <div class="header-search">
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="header-right">
+            <!-- the many icons present on the nav bar of linkedIn -->
+            <div class="icons">
+                <div class="icon">
+                    <i class="fa fa-home"></i>
+                    <h3>Home</h3>
+                    <br>
+                </div>
+
+                <!-- <div class="icon">
+                    <!-- <i class='fas fa-user-friends'></i> -->
+                <!-- <i style='font-size:24px' class='fas'>&#xf500;</i>
+                    <h3>MyNetwork</h3>
+                    <br>
+                </div> -->
+
+                <div class="icon">
+                    <i class="fa fa-briefcase"></i>
+                    <h3>Jobs</h3>
+                    <br>
+                </div>
+
+                <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                    <h3>Messages</h3>
+                    <br>
+                </div>
+
+                <div class="icon">
+                    <i class="fa fa-bell"></i>
+                    <h3>Notifications</h3>
+                    <br>
+                </div>
+
+                <div class="icon">
+                    <i class="fa fa-user-circle-o"></i>
+                    <h3>Me</h3>
+                    <br>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ending of header -->
+
+    <!-- MAIN BODY STARTING -->
+    <div class="bodymain">
+        <!-- Starting of sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <div class="abc"><i class="fa fa-user-circle-o"></i></div>
+                <h2>Bhavya Shukla</h2>
+                <h4>bhavyashukla23@gmail.com</h4>
+            </div>
+            
+            <!-- <div class="sidebar-ss">
+                <div class="sidebar-s">
+                    <p>Who viewed your post</p>
+                    <p class="sidebarnum"> 2,345</p>
+                </div>
+
+                <div class="sidebar-s">
+                    <p>Views on post</p>
+                    <p class="sidebarnum">2,345</p>
+                </div>
+            </div> -->
+               
+            <!-- <div class="sidebar-bottom">
+                <p>Recent</p>
+                <div class="recent">
+                    <span class="hashtag">#</span>
+                    <p>HTML</p>
+                </div>
+
+                <div class="recent">
+                    <span class="hashtag">#</span>
+                    <p>CSS</p>
+                </div>
+
+
+                <div class="recent">
+                    <span class="hashtag">#</span>
+                    <p>NODE</p>
+                </div>
+
+                <div class="recent">
+                    <span class="hashtag">#</span>
+                    <p>DS</p>
+                </div>
+            </div> -->
+        </div>
+        <!-- sidebar ends here -->
+        <!-- Feed starts here -->
+        <div class="feed">
+            <div class="feed-inputcontainer">
+                <div class="feed-input">
+                    <i class="material-icons">create</i>
+                    <form>
+                        <input type="text">
+                        <!-- <button>Send</button> -->
+                    </form>
+                </div>
+                <div class="feed-inputOptions">
+                    <div class="inputOption">
+                        <i class="material-icons" style="color: #70b5f9">collections_bookmark</i>
+                        <h4>Photo</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-video-camera" style="color: #e7a33e"></i>
+                        <h4>Video</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-calendar" style="color:lightgrey"></i>
+                        <h4>Event</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-newspaper-o" style="color:#7fc15e"></i>
+                        <h4>Write Article</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- <!Pots section starts--  -->
+            <div class="post">
+                <div class="post-head">
+                    <i class="fa fa-user-circle-o" style="font-size:24px"></i>
+                    <div class="post-info">
+                        <h2>Bhavya Shukla</h2>
+                        <p>Job</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Message here</p>
+                </div>
+
+                <div class="feed-inputOptions">
+                    <div class="inputOption">
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-comments-o"></i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-share-alt"></i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-send-o"></i>
+                        <h4>Send</h4>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- posts ends -->
+            <!-- <!Pots section starts--  -->
+            <div class="post">
+                <div class="post-head">
+                    <i class="fa fa-user-circle-o" style="font-size:24px"></i>
+                    <div class="post-info">
+                        <h2>Bhavya Shukla</h2>
+                        <p>Job</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Message here</p>
+                </div>
+
+                <div class="feed-inputOptions">
+                    <div class="inputOption">
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-comments-o"></i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-share-alt"></i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-send-o"></i>
+                        <h4>Send</h4>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- posts ends -->
+            <!-- <!Pots section starts--  -->
+            <div class="post">
+                <div class="post-head">
+                    <i class="fa fa-user-circle-o" style="font-size:24px"></i>
+                    <div class="post-info">
+                        <h2>Bhavya Shukla</h2>
+                        <p>Job</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Message here</p>
+                </div>
+
+                <div class="feed-inputOptions">
+                    <div class="inputOption">
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-comments-o"></i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-share-alt"></i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-send-o"></i>
+                        <h4>Send</h4>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- posts ends -->
+            <!-- <!Pots section starts--  -->
+            <div class="post">
+                <div class="post-head">
+                    <i class="fa fa-user-circle-o" style="font-size:24px"></i>
+                    <div class="post-info">
+                        <h2>Bhavya Shukla</h2>
+                        <p>Job</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Message here</p>
+                </div>
+
+                <div class="feed-inputOptions">
+                    <div class="inputOption">
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-comments-o"></i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-share-alt"></i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-send-o"></i>
+                        <h4>Send</h4>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- posts ends -->
+            <!-- <!Pots section starts--  -->
+            <div class="post">
+                <div class="post-head">
+                    <i class="fa fa-user-circle-o" style="font-size:24px"></i>
+                    <div class="post-info">
+                        <h2>Bhavya Shukla</h2>
+                        <p>Job</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Message here</p>
+                </div>
+
+                <div class="feed-inputOptions">
+                    <div class="inputOption">
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-comments-o"></i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-share-alt"></i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-send-o"></i>
+                        <h4>Send</h4>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- posts ends -->
+            <!-- <!Pots section starts--  -->
+            <div class="post">
+                <div class="post-head">
+                    <i class="fa fa-user-circle-o" style="font-size:24px"></i>
+                    <div class="post-info">
+                        <h2>Bhavya Shukla</h2>
+                        <p>Job</p>
+                    </div>
+                </div>
+                <div class="post-body">
+                    <p>Message here</p>
+                </div>
+
+                <div class="feed-inputOptions">
+                    <div class="inputOption">
+                        <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+                        <h4>Like</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-comments-o"></i>
+                        <h4>Comment</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-share-alt"></i>
+                        <h4>Share</h4>
+                    </div>
+                    <div class="inputOption">
+                        <i class="fa fa-send-o"></i>
+                        <h4>Send</h4>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- posts ends -->
+        </div>
+        <!-- Feed ends here -->
+
+        <!-- side ka material section starts -->
+        <div class="side">
+            <div class="side-header">
+                <h2>LinkedIn Clone of first page</h2>
+                <i class="fa fa-info-circle" class="icons"></i>
+            </div>
+            <div class="side-articles">
+                <div class="side-artice-left">
+                    <i class="fa fa-circle" class="icons"></i>
+                </div>
+                <div class="side-artice-right">
+                    <h4>Linkedin for news</h4>
+                    <p>news regarding uodates and jobs</p>
+                </div>
+            </div>
+            <div class="side-articles">
+                <div class="side-artice-left">
+                    <i class="fa fa-circle" class="icons"></i>
+                </div>
+                <div class="side-artice-right">
+                    <h4>Linkedin for news</h4>
+                    <p>news regarding uodates and jobs</p>
+                </div>
+            </div>
+            <div class="side-articles">
+                <div class="side-artice-left">
+                    <i class="fa fa-circle" class="icons"></i>
+                </div>
+                <div class="side-artice-right">
+                    <h4>Linkedin for news</h4>
+                    <p>news regarding uodates and jobs</p>
+                </div>
+            </div>
+            <div class="side-articles">
+                <div class="side-artice-left">
+                    <i class="fa fa-circle"></i>
+                </div>
+                <div class="side-artice-right">
+                    <h4>Linkedin for news</h4>
+                    <p>news regarding uodates and jobs</p>
+                </div>
+            </div>
+            <div class="side-articles">
+                <div class="side-artice-left">
+                    <i class="fa fa-circle" class="icons"></i>
+                </div>
+                <div class="side-artice-right">
+                    <h4>Linkedin for news</h4>
+                    <p>news regarding uodates and jobs</p>
+                </div>
+            </div>
+        </div>
+        <!-- side ka material section end -->
+</body>
+
+</html>
